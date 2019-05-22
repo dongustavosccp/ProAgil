@@ -53,6 +53,7 @@ namespace ProAgil.Api
             }
 
             app.UseCors("CorsPolicy");
+            app.UseStaticFiles();
             app.UseHttpsRedirection();
             app.UseMvc();
         }
