@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 import { EventoService } from '../_services/evento.service';
 
 @Component({
@@ -42,7 +41,7 @@ export class EventosComponent implements OnInit {
   }
 
   getEventos() {
-    this.eventoService.getEvento().subscribe(
+    this.eventoService.getAllEventos().subscribe(
       response => {
         console.log(response);
         this.eventos = response;
