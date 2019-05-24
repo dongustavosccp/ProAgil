@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ProAgil.Api.Model.Dto
+namespace ProAgil.Domain.Model.Dto
 {
-    public class DtoError
+    public class ErrorDto : Entity
     {
-        public int Id { get; set; }
         public string Descricao { get; set; }
     }
 }

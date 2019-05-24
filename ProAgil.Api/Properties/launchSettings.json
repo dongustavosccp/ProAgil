@@ -12,14 +12,14 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/values",
+      "launchUrl": "api/Evento",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
     "ProAgil.Api": {
       "commandName": "Project",
-      "launchUrl": "api/values",
+      "launchUrl": "api/Evento",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
